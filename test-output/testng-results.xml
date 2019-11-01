@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4458" started-at="2019-11-01T16:23:04Z" finished-at="2019-11-01T16:23:08Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="4458" started-at="2019-11-01T16:23:04Z" finished-at="2019-11-01T16:23:08Z">
+      <class name="com.impact.API.TestCases.ValidateCreateCustomerAPI">
+        <test-method status="PASS" signature="setupFramework()[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="setupFramework" is-config="true" duration-ms="571" started-at="2019-11-01T21:53:03Z" finished-at="2019-11-01T21:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupFramework -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="beforeClass" is-config="true" duration-ms="4" started-at="2019-11-01T21:53:04Z" finished-at="2019-11-01T21:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="beforeMethod" is-config="true" duration-ms="97" started-at="2019-11-01T21:53:04Z" finished-at="2019-11-01T21:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.impact.API.TestCases.ValidateCreateCustomerAPI.validateCreateCustomerAPIWithInValidSecretKey(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithInValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="validateCreateCustomerAPIWithInValidSecretKey" duration-ms="1618" started-at="2019-11-01T21:53:04Z" data-provider="data" finished-at="2019-11-01T21:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=A, email=a1@gmail.com, statusCode=401, description=UserA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithInValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-11-01T21:53:06Z" finished-at="2019-11-01T21:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateCustomerAPIWithInValidSecretKey status=SUCCESS method=ValidateCreateCustomerAPI.validateCreateCustomerAPIWithInValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-11-01T21:53:06Z" finished-at="2019-11-01T21:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.impact.API.TestCases.ValidateCreateCustomerAPI.validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="1192" started-at="2019-11-01T21:53:06Z" data-provider="data" finished-at="2019-11-01T21:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=A, email=a@gmail.com, statusCode=200, description=UserA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-11-01T21:53:07Z" finished-at="2019-11-01T21:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateCustomerAPIWithValidSecretKey status=SUCCESS method=ValidateCreateCustomerAPI.validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-01T21:53:07Z" finished-at="2019-11-01T21:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.impact.API.TestCases.ValidateCreateCustomerAPI.validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="827" started-at="2019-11-01T21:53:07Z" data-provider="data" finished-at="2019-11-01T21:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=B, email=b@gmail.com, statusCode=200, description=UserB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-11-01T21:53:08Z" finished-at="2019-11-01T21:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateCustomerAPIWithValidSecretKey status=SUCCESS method=ValidateCreateCustomerAPI.validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownFramework()[pri:0, instance:com.impact.API.TestCases.ValidateCreateCustomerAPI@619713e5]" name="tearDownFramework" is-config="true" duration-ms="306" started-at="2019-11-01T21:53:08Z" finished-at="2019-11-01T21:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFramework -->
+      </class> <!-- com.impact.API.TestCases.ValidateCreateCustomerAPI -->
+      <class name="com.impact.API.TestCases.ValidateUpdateCustomerAPI">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.impact.API.TestCases.ValidateUpdateCustomerAPI@708f5957]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-11-01T21:53:08Z" finished-at="2019-11-01T21:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.impact.API.TestCases.ValidateUpdateCustomerAPI@708f5957]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-01T21:53:08Z" finished-at="2019-11-01T21:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.impact.API.TestCases.ValidateUpdateCustomerAPI.validateUpdateCustomerAPIWithValidSecretKey(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateUpdateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateUpdateCustomerAPI@708f5957]" name="validateUpdateCustomerAPIWithValidSecretKey" duration-ms="670" started-at="2019-11-01T21:53:08Z" data-provider="data" finished-at="2019-11-01T21:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Shivu, statusCode=200, balance=1000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.impact.API.TestCases.ValidateUpdateCustomerAPI@708f5957]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-11-01T21:53:08Z" finished-at="2019-11-01T21:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUpdateCustomerAPIWithValidSecretKey status=SUCCESS method=ValidateUpdateCustomerAPI.validateUpdateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.impact.API.TestCases.ValidateUpdateCustomerAPI@708f5957] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.impact.API.TestCases.ValidateUpdateCustomerAPI -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
